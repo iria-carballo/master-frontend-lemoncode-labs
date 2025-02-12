@@ -1,0 +1,68 @@
+@use "theme-red" as *;
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box {
+    height: 100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $principal-font;
+    border-radius: $border-radius;
+
+    & span{
+        text-align: center;
+    }
+}
+
+.base{
+    background-color: $primary-color;
+    color: $text-theme;
+}
+.important{
+    background-color: $secondary-color;
+    color:$text-light
+}
+.warning{
+    background-color: $tertiary-color;
+    color:$text-light;
+}
+
+.principal-font{
+    font-family: $principal-font;
+}
+
+.secondary-font{
+    font-family: $secondary-font;
+}
+
+
+.box-shadow{
+    @extend .box;
+    background-color: $neutral-color;
+    color: $text-dark;
+    border: 1px solid $neutral-color-dark;
+    box-shadow:$box-shadow;
+}

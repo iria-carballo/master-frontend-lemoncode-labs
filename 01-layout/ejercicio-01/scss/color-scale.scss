@@ -1,0 +1,19 @@
+@mixin color-scale($container, $base-color, $text-color, $text-color-inverse) {
+  .#{$container} {
+    .base-color {
+      background-color: $base-color;
+      color: $text-color;
+    }
+
+    @for $i from 1 through 4 {
+      .darken-#{$i} {
+        background-color: darken($base-color, $i * 10%);
+        color: $text-color;
+      }
+      .lighten-#{$i} {
+        background-color: lighten($base-color, $i * 10%);
+        color: $text-color-inverse;
+      }
+    }
+  }
+}

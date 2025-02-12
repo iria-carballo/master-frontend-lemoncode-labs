@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build y archivos generados
+dist/
+build/
+.out/
+.vite/
+.next/
+.cache/
+.parcel-cache/
+
+# Archivos de entorno y configuración local
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Sass compilados
+*.css
+*.css.map
+
+# Archivos de logs y depuración
+logs/
+*.log
+yarn-error.log
+debug.log
