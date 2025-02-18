@@ -22,10 +22,6 @@ build/
 *.swp
 *.swo
 
-# Archivos de Sass compilados
-*.css
-*.css.map
-
 # Archivos de logs y depuración
 logs/
 *.log
