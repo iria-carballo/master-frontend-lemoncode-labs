@@ -32,8 +32,6 @@ Para compilar SASS, usa: ´npx parcel ./ejercicio-03/index.html`
 Crear un componente de tipo card utilizando CSS Grid.
 
 
-## Ejericio EXTRA: Layout para aplicación
-
-Recrear la barra de navegación de la imagen utilizando Flexbox. El diseño cambiará automáticamente en pantallas de 768px o menores.
+## Ejercicio EXTRA: Layout para aplicación
 
 Para compilar SASS, usa: ´npx parcel ./ejercicio-extra/index.html`
