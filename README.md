@@ -9,3 +9,4 @@ Laboratorios del Máster Front End Lemoncode
   - [x] [Ejercicio 2](./01-layout/ejercicio-02/)
   - [x] [Ejercicio 3](./01-layout/ejercicio-03/)
   - [x] [Ejercicio 4](./01-layout/ejercicio-04/)
+  - [x] [Ejercicio EXTRA](./01-layout/ejercicio-extra/)
