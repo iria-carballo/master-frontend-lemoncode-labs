@@ -4,7 +4,10 @@
 
 Crear una paleta de colores dinámica utilizando SASS.
 
-Para compilar SASS, usa: ´npx parcel ./ejercicio-01/index.html`
+Para compilar SASS, usa: 
+```
+npx parcel ./ejercicio-01/index.html
+```
 
 
 ## Ejercicio 2: Temas personalizados
@@ -24,7 +27,10 @@ Para cambiar entre los temas, modifica la línea en styles.scss:
 
 Recrear la barra de navegación de la imagen utilizando Flexbox. El diseño cambiará automáticamente en pantallas de 768px o menores.
 
-Para compilar SASS, usa: ´npx parcel ./ejercicio-03/index.html`
+Para compilar SASS, usa:
+```
+npx parcel ./ejercicio-03/index.html
+``` 
 
 
 ## Ejercicio 4: Card con Grid CSS
@@ -34,4 +40,8 @@ Crear un componente de tipo card utilizando CSS Grid.
 
 ## Ejercicio EXTRA: Layout para aplicación
 
-Para compilar SASS, usa: ´npx parcel ./ejercicio-extra/index.html`
+Para compilar SASS, usa: 
+
+```
+npx parcel ./ejercicio-extra/index.html
+``` 
