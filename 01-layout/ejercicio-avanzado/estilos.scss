@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+$appBackgroud-color: #141414;
+$font-color: white;
+
+body {
+  margin: 0;
+  padding: 0 20px;
+  font-family: "Jost", sans-serif;
+  background-color: $appBackgroud-color;
+  color: $font-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: $appBackgroud-color;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+
+  .header-logo,
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .header-logo img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .header-buttons div {
+    border-radius: 8px;
+    padding: 4px 16px;
+
+    &:hover {
+      background-color: white;
+      color: #141414;
+      border-radius: 8px;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .platform-title {
+      display: none;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0 24px 0;
+  width: 100%;
+}
+
+#top-text::after {
+  font-weight: 600;
+  content: "5";
+
+  @media screen and (max-width: 1280px) {
+    content: "3";
+  }
+}
+
+.top {
+  max-width: 100%;
+  display: flex;
+  align-content: space-between;
+  gap: 16px;
+  margin: 50px 0;
+
+  .top-item {
+    flex: 1;
+    min-width: 225px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.25);
+      margin: 0 24px;
+    }
+  }
+
+  .top-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 1280px) {
+    flex-wrap: wrap;
+    flex:0;
+    .top-item:hover {
+      &:hover {
+        transform: scale(1);
+        margin: 0;
+      }
+    }
+
+    .top-item:nth-child(n + 4) {
+      display: none;
+    }
+  }
+}
+
+.first,
+.second {
+  margin: 32px 0 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap:4px;
+
+  .item {
+    flex: 1;
+    min-width: 250px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    @media screen and (min-width: 1280px) {
+      &:hover {
+        transform: scale(1.2);
+        margin: 0 32px;
+        
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+    }
+
+    @media screen and (max-width: 1279px) {
+      &:hover {
+        transform: scale(1);
+        margin: 0;
+        z-index: 10;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 54px 55px,
+          rgba(0, 0, 0, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.25) 0px 4px 6px,
+          rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.15) 0px -3px 5px;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+footer {
+  color: rgb(92, 92, 92);
+  padding: 0 20px 20px 20px;
+}
