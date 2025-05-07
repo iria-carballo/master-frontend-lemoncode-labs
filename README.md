@@ -15,8 +15,8 @@ Laboratorios del Máster Front End Lemoncode
 ## Módulo 2: Lenguajes
 
 - [02 Lenguajes](./02-lenguajes/)
-  - [x] [Ejercicio 1](./02-Lenguajes/ejercicio-01.js/)
-  - [x] [Ejercicio 2](./02-Lenguajes/ejercicio-02.js/)
-  - [x] [Ejercicio 3](./02-Lenguajes/ejercicio-03.js/)
-  - [x] [Ejercicio 4](./02-Lenguajes/ejercicio-04.ts/)
-  - [x] [Ejercicio 5](./02-Lenguajes/ejercicio-05.ts/)
+  - [x] [Ejercicio 1](./02-lenguajes/ejercicio-01.js/)
+  - [x] [Ejercicio 2](./02-lenguajes/ejercicio-02.js/)
+  - [x] [Ejercicio 3](./02-lenguajes/ejercicio-03.js/)
+  - [x] [Ejercicio 4](./02-lenguajes/ejercicio-04.ts/)
+  - [x] [Ejercicio 5](./02-lenguajes/ejercicio-05.ts/)
